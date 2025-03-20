@@ -7,7 +7,7 @@ Bienvenue dans la première version de l'application de gestion de smartphones !
 ### 1️⃣ Cloner le dépôt
 ```bash
 git clone https://github.com/mld08/devicehub-react.git
-cd ton-repo
+cd devicehub-react-master
 ```
 
 ### 2️⃣ Installer les dépendances
