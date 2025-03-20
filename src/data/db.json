@@ -9,6 +9,16 @@
       "id": "a29a",
       "nom": "Tecno Camon 16",
       "prix": 50000
+    },
+    {
+      "id": "1b31",
+      "nom": "Galaxy Z Fold",
+      "prix": 209000
+    },
+    {
+      "id": "df95",
+      "nom": "Iphone 16",
+      "prix": 300000
     }
   ]
 }

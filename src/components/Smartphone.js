@@ -16,6 +16,15 @@ export const ajouterSmartphone = async (smartphone) => {
     }
 };
 
+// Editer
+export async function editSmartphone(id, updatedProduct) {
+  await fetch(`${API_URL}/${id}`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(updatedProduct),
+  });
+}
+
 // Lister smartphones
 export async function getSmartphones() {
   const response = await fetch(API_URL);

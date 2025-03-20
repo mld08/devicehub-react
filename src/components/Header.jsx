@@ -82,7 +82,7 @@ function Header() {
                                             <label for="nom" className="block text-sm font-medium text-gray-100">Nom</label>
                                             <input type="text" id="nom" name="nom"
                                                 className="mt-1 sm:mt-2 block w-full rounded-md bg-gray-700 px-3 py-2 sm:px-4 text-gray-100 outline-none focus:ring-2 focus:ring-blue-500"
-                                                placeholder="Nom du smartphone" value={nom} onChange={(e) => setNom(e.target.value)}/>
+                                                placeholder="Nom du smartphone" value={nom} onChange={(e) => setNom(e.target.value)} />
                                         </div>
 
                                         <div>
@@ -90,22 +90,7 @@ function Header() {
                                                 (FCFA)</label>
                                             <input type="number" id="prix" name="prix"
                                                 className="mt-1 sm:mt-2 block w-full rounded-md bg-gray-700 px-3 py-2 sm:px-4 text-gray-100 outline-none focus:ring-2 focus:ring-blue-500"
-                                                placeholder="Prix en FCFA"value={prix} onChange={(e) => setPrix(e.target.value)} />
-                                        </div>
-
-                                        <div class="col-span-1 sm:col-span-2 lg:col-span-3">
-                                            <label for="photo" class="block text-sm font-medium text-gray-100">Photo</label>
-                                            <div
-                                                class="mt-1 sm:mt-2 flex flex-col sm:flex-row items-start sm:items-center gap-y-2 gap-x-3">
-                                                <svg class="w-6 h-6 text-gray-400" fill="currentColor" viewBox="0 0 24 24"
-                                                    aria-hidden="true">
-                                                    <path fill-rule="evenodd"
-                                                        d="M1.5 6a2.25 2.25 0 0 1 2.25-2.25h16.5A2.25 2.25 0 0 1 22.5 6v12a2.25 2.25 0 0 1-2.25 2.25H3.75A2.25 2.25 0 0 1 1.5 18V6ZM3 16.06V18c0 .414.336.75.75.75h16.5A.75.75 0 0 0 21 18v-1.94l-2.69-2.689a1.5 1.5 0 0 0-2.12 0l-.88.879.97.97a.75.75 0 1 1-1.06 1.06l-5.16-5.159a1.5 1.5 0 0 0-2.12 0L3 16.061Zm10.125-7.81a1.125 1.125 0 1 1 2.25 0 1.125 1.125 0 0 1-2.25 0Z"
-                                                        clip-rule="evenodd" />
-                                                </svg>
-                                                <input type="file" id="photo" name="photo"
-                                                    className="w-full rounded-md bg-gray-700 text-sm text-gray-100 file:border-0 file:bg-gray-600 file:px-3 file:py-2 sm:file:px-4 file:text-white hover:file:bg-gray-500 focus:ring-2 focus:ring-blue-500" />
-                                            </div>
+                                                placeholder="Prix en FCFA" value={prix} onChange={(e) => setPrix(e.target.value)} />
                                         </div>
                                     </div>
                                 </div>
