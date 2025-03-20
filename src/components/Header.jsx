@@ -69,7 +69,7 @@ function Header() {
                 </div>
             </header>
             {isModalOpen && (
-                <div className="fixed inset-0 flex items-center justify-center" style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}>
+                <div className="fixed inset-0 flex items-center justify-center" style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }} >
                     <div className="bg-white p-2 rounded-lg shadow-lg w-200 max-h-full">
                         <form onSubmit={handleSubmit} className="bg-gray-800 rounded-lg shadow-lg p-3 sm:p-6 md:p-8"> {/*SUBMIT ECOUTE */}
                             <div className="space-y-6 sm:space-y-8">

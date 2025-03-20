@@ -4,6 +4,11 @@
       "id": "5ebe",
       "nom": "Iphone 16",
       "prix": 100000
+    },
+    {
+      "id": "a29a",
+      "nom": "Tecno Camon 16",
+      "prix": 50000
     }
   ]
 }
